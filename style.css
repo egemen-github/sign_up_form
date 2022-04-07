@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: solid 1px red;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+sidebar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+#leafs {
+    height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+    font-size: 3rem;
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner img {
+    width: 8rem;
+}
+#odin {
+    color: white;
+}
+
