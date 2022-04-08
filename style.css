@@ -1,40 +1,77 @@
 * {
     margin: 0;
     padding: 0;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 body {
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
 }
 
-sidebar {
+.sidebar {
+    position: relative;
+    display: flex;
+    color: white;
+    background-image: url("leafs.jpg");
+    background-position: center;
+    background-size:cover;
+  }
+  
+
+.banner {
     position: relative;
     display: flex;
     justify-content: center;
-    color: white;
-  }
-  
-#leafs {
-    height: 100vh;
-}
-
-.banner {
-    position: absolute;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    top: 150px;
     font-size: 3rem;
-    width: 33%;
-    background-color: rgba(0, 0, 0, 0.5);
+    top: 15%;
+    height: 20%;
+    font-family: Norse;
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
 .banner img {
-    width: 8rem;
+    height: 100%;
 }
+
 #odin {
     color: white;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 4rem;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+
+}
+
+.names, .mail-phone{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 25rem;
+    column-gap: 2rem;
+}
+
+.pass-submit {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 12.5rem;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+}
