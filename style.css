@@ -1,7 +1,12 @@
 @font-face {
-    font-family: Norse-Bold;
-    src: url("Norse-Bold.otf");
-}
+    font-family: "Norse";
+    src: url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot");
+    src: url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.svg#Norse") format("svg");
+} 
 
 * {
     margin: 0;
