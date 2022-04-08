@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Norse";
-    src: url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot");
-    src: url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.svg#Norse") format("svg");
-} 
+    font-family: 'norsebold';
+    src: url('norse-bold-webfont.woff2') format('woff2'),
+         url('norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 * {
     margin: 0;
@@ -35,14 +35,14 @@ body {
     align-items: center;
   }
 
-  .photo-credit {
-      color: white;
-      font-size: small;
-  }
+.photo-credit {
+    color: white;
+    font-size: small;
+}
 
-  .photo-credit a {
-      color: white;
-  }
+.photo-credit a {
+    color: white;
+}
 
 .banner {
     position: relative;
@@ -52,7 +52,6 @@ body {
     font-size: 3rem;
     top: 15%;
     height: 20%;
-    font-family: Norse;
     background-color: rgba(0, 0, 0, 0.575);
 }
 
@@ -62,6 +61,7 @@ body {
 
 #odin {
     color: white;
+    font-family: norsebold;
 }
 
 .form {
